@@ -1,4 +1,4 @@
-# img2webp
+# imgtowebp
 
 Convert images to **WebP** in both **browsers** (Canvas/OffscreenCanvas) and **Node.js** (via `sharp`), with optional downscaling and an optional “try to hit a target size” quality search.
 
@@ -10,7 +10,7 @@ Convert images to **WebP** in both **browsers** (Canvas/OffscreenCanvas) and **N
 ## Install
 
 ```bash
-npm i img2webp
+npm i imgtowebp
 ```
 
 ## Quick start
@@ -18,7 +18,7 @@ npm i img2webp
 ### Browser
 
 ```ts
-import { imageToWebp } from "img2webp"
+import { imageToWebp } from "imgtowebp"
 
 const res = await imageToWebp(fileOrBlobOrUrl, {
   maxWidth: 2048,
@@ -39,7 +39,7 @@ console.log(res.isWebp, res.width, res.height, res.quality, res.blob.size)
 ### Node.js
 
 ```ts
-import { imageToWebp } from "img2webp/node"
+import { imageToWebp } from "imgtowebp/node"
 import { readFile } from "node:fs/promises"
 
 const bytes = await readFile("input.png")
@@ -83,8 +83,8 @@ console.log(res.isWebp, res.width, res.height, res.quality, webpArrayBuffer.byte
 
 ## Import paths
 
-- **Browser**: `import { imageToWebp } from "img2webp"`
-- **Node**: `import { imageToWebp } from "img2webp/node"`
+- **Browser**: `import { imageToWebp } from "imgtowebp"`
+- **Node**: `import { imageToWebp } from "imgtowebp/node"`
 
 ## Build (contributors)
 
