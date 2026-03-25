@@ -1,6 +1,6 @@
 {
   "name": "imgtowebp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert images to WebP in browser and Node.js.",
   "license": "MIT",
   "repository": {
