@@ -6,6 +6,7 @@ Convert images to **WebP** in both **browsers** (Canvas/OffscreenCanvas) and **N
 
 - **Shrink images for the web**: turn PNG/JPEG/etc into WebP, optionally downscale, and (optionally) try to keep output under a byte budget.
 - **Same API across environments**: import `imageToWebp()` from the browser entry or the Node entry.
+- **Universal compatibility**: works seamlessly in both browser and Node.js environments with the same simple API.
 
 ## Install
 
@@ -94,7 +95,21 @@ npm run typecheck
 npm test
 ```
 
+## Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+
+## Security
+
+If you discover a security vulnerability, please follow our [Security Policy](SECURITY.md) for responsible disclosure.
+
+## Support
+
+- [Documentation](https://github.com/enzox0/imgtowebp#readme)
+- [Issue Tracker](https://github.com/enzox0/imgtowebp/issues)
+- [Discussions](https://github.com/enzox0/imgtowebp/discussions)
+
 ## License
 
-MIT. See `LICENSE`.
+MIT © 2026 enzox0. See [LICENSE](LICENSE) for details.
 
